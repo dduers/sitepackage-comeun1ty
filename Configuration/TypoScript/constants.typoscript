@@ -78,6 +78,6 @@ page {
 #    removeDefaultJS = 0
 #    admPanel = 1
 #    prefixLocalAnchors = all
-#    headerComment = Site package comeun1ty TYPO3 web page
+#    headerComment = Site package Comeun1ty.NET TYPO3 web page
 #    sendCacheHeaders = 1
 #}
