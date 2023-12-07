@@ -3,7 +3,7 @@
 <f:form.validationResults for="{for}.{field}">
 	<f:for each="{validationResults.flattenedErrors}" as="propertyErrors">
 		<f:for each="{propertyErrors}" as="propertyError">
-			<div class="error errorMessage errorField field{field}">
+			<div class="error errorMessage errorField field{field} text-danger">
 				<f:format.printf arguments="{field: '{f:translate(id: \'{field}\')}'}">
 					{propertyError.message}
 				</f:format.printf>
