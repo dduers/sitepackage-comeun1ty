@@ -1,7 +1,7 @@
 {
     "name": "dduers/sitepackage-comeun1ty",
     "type": "typo3-cms-extension",
-    "description": "Site package for comeun1ty TYPO3 webpage",
+    "description": "Site package for Comeun1ty.NET TYPO3 webpage",
     "homepage": "https://www.comeun1ty.net",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dduers\\Sitepackagecomeun1ty\\": "Classes/"
+            "Dduers\\SitepackageComeun1ty\\": "Classes/"
         }
     },
     "extra": {
