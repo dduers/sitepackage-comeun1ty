@@ -49,7 +49,7 @@ page {
     logo {
         file = EXT:sitepackage_comeun1ty/Resources/Public/Images/logo.png
         height = 200
-        width = 150
+        width = 200
     }
     favicon {
         file = EXT:sitepackage_comeun1ty/Resources/Public/Icons/favicon.ico

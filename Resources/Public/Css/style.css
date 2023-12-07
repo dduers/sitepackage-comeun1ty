@@ -18,3 +18,7 @@
   .breadcrumb-section a:hover {
     text-decoration: underline;
   }
+
+  .navbar-mainnavigation .navbar-brand-image img {
+    border: 1px solid black;
+  }
