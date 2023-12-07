@@ -1,6 +1,6 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 
-<div class="col-md-6 mb-3 {fieldName}">
+<div class="mb-3 {fieldName}">
 	<f:variable name="for">{f:if(condition: property, then: property, else: 'user')}</f:variable>
 	<div class="form-floating mb-3">
 		<f:form.textfield property="{fieldName}" id="{fieldName}" type="email" placeholder="{options.placeholder}"
