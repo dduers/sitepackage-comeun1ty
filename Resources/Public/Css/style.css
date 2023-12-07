@@ -1,24 +1,37 @@
 .footer-section-meta {
-    background-color: transparent;
-  }
-  
-  .footer-section-meta .footer-copyright {
-    color: #999999;
-  }
-  
-  .breadcrumb-section {
-    background-color: transparent;
-  }
-  
-  .breadcrumb-section a {
-    color: CornflowerBlue;
-    text-decoration: none;
-  }
-  
-  .breadcrumb-section a:hover {
-    text-decoration: underline;
-  }
+  background-color: transparent;
+}
 
-  .navbar-mainnavigation .navbar-brand-image img {
-    border: 1px solid black;
-  }
+.footer-section-meta .footer-copyright {
+  color: #999999;
+}
+
+.breadcrumb-section {
+  background-color: transparent;
+}
+
+.breadcrumb-section a {
+  color: CornflowerBlue;
+  text-decoration: none;
+}
+
+.breadcrumb-section a:hover {
+  text-decoration: underline;
+}
+
+.navbar-mainnavigation .navbar-brand-image img {
+  border: 1px solid black;
+}
+
+.language-menu * {
+  color: lightgrey;
+}
+
+.language-menu a {
+  color: CornflowerBlue !important;
+  text-decoration: none !important;
+}
+
+.language-menu a:hover {
+  text-decoration: underline !important;
+}
