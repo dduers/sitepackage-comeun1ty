@@ -61,11 +61,11 @@ page {
         compatible = IE=edge
     }
     tracking {
-        google {
-            trackingID = G-RQ1QZPVQ82
-            tagManagerContainerId = G-RQ1QZPVQ82
-            anonymizeIp = 1
-        }
+        #google {
+        #    trackingID = G-RQ1QZPVQ82
+        #    tagManagerContainerId = G-RQ1QZPVQ82
+        #    anonymizeIp = 1
+        #}
     }
 }
 

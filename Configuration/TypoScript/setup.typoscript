@@ -106,7 +106,7 @@ page {
     #        attribute = http-equiv
     #    }
 
-        # OpenGraph Tags
+    # OpenGraph Tags
     #    og:title {
     #        attribute = property
     #        field = title
@@ -198,14 +198,8 @@ config {
 plugin.tx_form {
     settings {
         yamlConfigurations {
-            100 = EXT:sitepackage_comeun1ty/Configuration/Form/CustomFormSetup.yaml
+            700 = EXT:sitepackage_comeun1ty/Configuration/Form/CustomFormSetup.yaml
         }
     }
 }
-module.tx_form {
-    settings {
-        yamlConfigurations {
-            100 = EXT:sitepackage_comeun1ty/Configuration/Form/CustomFormSetup.yaml
-        }
-    }
-}
+module.tx_form < plugin.tx_form

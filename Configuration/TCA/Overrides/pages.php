@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types=1);
+
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') or die('Access denied.');
-call_user_func(function()
-{
+call_user_func(function () {
     /**
      * Temporary variables
      */
@@ -10,9 +14,9 @@ call_user_func(function()
     /**
      * Default PageTS
      */
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
+    ExtensionManagementUtility::registerPageTSConfigFile(
         $extensionKey,
         'Configuration/TsConfig/Page/All.tsconfig',
-        'sitepackage-comeun1ty'
+        'Comeun1ty.NET PageTsConfig'
     );
 });

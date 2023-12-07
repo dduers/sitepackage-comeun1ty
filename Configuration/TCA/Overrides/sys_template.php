@@ -1,7 +1,11 @@
 <?php
+
+declare(strict_types=1);
+
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') or die('Access denied.');
-call_user_func(function()
-{
+call_user_func(function () {
     /**
      * Temporary variables
      */
@@ -10,9 +14,17 @@ call_user_func(function()
     /**
      * Default TypoScript
      */
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+    ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'sitepackage-comeun1ty'
+        'Sitepackage Comeun1ty.NET'
     );
+
+    /*
+    ExtensionManagementUtility::addStaticFile(
+        'sf_register',
+        'Configuration/TypoScript/Extension/sf_register/',
+        'Sitepackage Comeun1ty.NET [sf_register]'
+    );
+    */
 });
