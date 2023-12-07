@@ -23,15 +23,12 @@
   border: 1px solid black;
 }
 
-.language-menu * {
-  color: lightgrey;
-}
-
 .language-menu a {
   color: CornflowerBlue !important;
   text-decoration: none !important;
 }
 
 .language-menu a:hover {
+  color: CornflowerBlue !important;
   text-decoration: underline !important;
 }
