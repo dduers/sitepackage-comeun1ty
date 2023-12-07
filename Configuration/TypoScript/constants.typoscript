@@ -83,6 +83,6 @@ page {
 #}
 
 
-plugin.tx_sfregister.view.templateRootPath = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Templates/
-plugin.tx_sfregister.view.partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Partials/
-plugin.tx_sfregister.view.layoutRootPath = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Layouts/
+plugin.tx_sfregister.view.templateRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Templates/
+plugin.tx_sfregister.view.partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Partials/
+plugin.tx_sfregister.view.layoutRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Layouts/
