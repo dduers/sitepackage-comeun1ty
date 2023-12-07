@@ -4,13 +4,14 @@
 	<f:variable name="for">{f:if(condition: property, then: property, else: 'user')}</f:variable>
 	<div class="form-floating mb-3">
 		<f:form.textfield property="{fieldName}" id="{fieldName}" type="email" placeholder="{options.placeholder}"
-			class="form-control shadow-none {options.cssClass}" data="{lpignore: 'true'}" />
+			errorClass="is-invalid" class="form-control shadow-none {options.cssClass}" data="{lpignore: 'true'}" />
 		<label for="{fieldName}">
 			<f:translate id="{fieldName}" />
 			<f:render partial="Required" arguments="{field: fieldName}" />
 		</label>
+		<f:render partial="FieldError" arguments="{for: for, field: fieldName}" />
 	</div>
-	<f:render partial="FieldError" arguments="{for: for, field: fieldName}" />
+
 </div>
 
 </html>

@@ -2,15 +2,16 @@
 	xmlns:register="http://typo3.org/ns/Evoweb/SfRegister/ViewHelpers" data-namespace-typo3-fluid="true">
 
 <div class="col-md-6 mb-3 {fieldName}">
-	<f:render partial="FieldError" arguments="{for: 'user', field: fieldName}" />
 	<div class="form-floating mb-3">
-		<register:form.translatedSelect property="{fieldName}" id="{fieldName}" options="{options.values}"
+		<register:form.translatedSelect property="{fieldName}" id="{fieldName}" options="{options.values}" errorClass="is-invalid"
 			class="form-control shadow-none {options.cssClass}" />
 		<label for="{fieldName}">
 			<f:translate id="{fieldName}" />
 			<f:render partial="Required" arguments="{field: fieldName}" />
 		</label>
+		<f:render partial="FieldError" arguments="{for: 'user', field: fieldName}" />
 	</div>
+	
 </div>
 
 </html>
