@@ -81,3 +81,8 @@ page {
 #    headerComment = Site package Comeun1ty.NET TYPO3 web page
 #    sendCacheHeaders = 1
 #}
+
+
+plugin.tx_sfregister.view.templateRootPaths = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Templates/
+plugin.tx_sfregister.view.partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Partials/
+plugin.tx_sfregister.view.layoutRootPaths = EXT:sitepackage_comeun1ty/Resources/Private/sf_register/Layouts/

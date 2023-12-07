@@ -203,16 +203,3 @@ plugin.tx_form {
     }
 }
 module.tx_form < plugin.tx_form
-
-plugin.tx_sfregister.view {
-  # cat=sf_register.settings/file; type=string; label=LLL:EXT:sf_register/Resources/Private/Language/locallang_ts.xlf:templateRootPath
-  templateRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Templates/
-
-  # cat=sf_register.settings/file; type=string; label=LLL:EXT:sf_register/Resources/Private/Language/locallang_ts.xlf:partialRootPath
-  partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Partials/
-
-  # cat=sf_register.settings/file; type=string; label=LLL:EXT:sf_register/Resources/Private/Language/locallang_ts.xlf:layoutRootPath
-  layoutRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Layouts/
-}
-
-module.tx_sfregister < plugin.tx_sfregister
