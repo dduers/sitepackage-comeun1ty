@@ -1,0 +1,20 @@
+.footer-section-meta {
+    background-color: transparent;
+  }
+  
+  .footer-section-meta .footer-copyright {
+    color: #999999;
+  }
+  
+  .breadcrumb-section {
+    background-color: transparent;
+  }
+  
+  .breadcrumb-section a {
+    color: CornflowerBlue;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-section a:hover {
+    text-decoration: underline;
+  }

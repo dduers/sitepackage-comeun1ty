@@ -158,8 +158,7 @@ page {
     }
 
     includeCSS {
-        sitepackage_comeun1ty_layout = EXT:sitepackage_comeun1ty/Resources/Public/Css/layout.css
-        #sitepackage_comeun1ty_layout = EXT:sitepackage_comeun1ty/Resources/Public/Css/layout.min.css
+        sitepackage_comeun1ty_style = EXT:sitepackage_comeun1ty/Resources/Public/Css/style.css
     }
 
     includeJSLibs {
@@ -179,7 +178,7 @@ page {
     }
 
     includeJSFooter {
-        sitepackage_comeun1ty_scripts = EXT:sitepackage_comeun1ty/Resources/Public/JavaScript/Dist/scripts.js
+        sitepackage_comeun1ty_scripts = EXT:sitepackage_comeun1ty/Resources/Public/JavaScript/Dist/script.js
     }
 }
 
