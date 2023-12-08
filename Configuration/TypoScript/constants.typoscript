@@ -115,6 +115,29 @@ plugin {
             partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Partials/
             layoutRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_sf_register/Layouts/
         }
+        settings {
+            sitename = Comeun1ty.NET
+            userEmail {
+                replyEmail = noreply@comeun1ty.net
+                replyName = Comeun1ty.NET
+                fromEmail = noreply@comeun1ty.net
+                fromName = Comeun1ty.NET
+            }
+            adminEmail {
+                replyEmail = noreply@comeun1ty.net
+                replyName = Comeun1ty.NET
+                fromEmail = noreply@comeun1ty.net
+                fromName = Comeun1ty.NET
+                toEmail = hostmaster@comeun1ty.net
+                toName = Comeun1ty.NET Hostmaster
+            }
+            usergroup = 1
+            usergroupPostConfirm = 1
+            usergroupPostSave = 3
+            notifyAdminPostCreateConfirm = 1
+            confirmEmailPostCreate = 1
+            acceptEmailPostEdit = 1
+        }
     }
     tx_felogin_login {
         view {
@@ -124,4 +147,3 @@ plugin {
         }
     }
 }
-
