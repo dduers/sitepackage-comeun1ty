@@ -32,3 +32,14 @@
   color: CornflowerBlue !important;
   text-decoration: underline !important;
 }
+
+input[type="submit"] {
+  background-color: CornflowerBlue !important;
+  color: #fefefe !important;
+}
+
+input[type="hover"] {
+  background-color: CornflowerBlue !important;
+  color: #fefefe !important;
+  opacity: 0.85 !important;
+}
