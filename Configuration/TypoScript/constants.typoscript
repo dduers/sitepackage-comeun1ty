@@ -135,6 +135,7 @@ plugin {
             usergroupPostConfirm = 1
             usergroupPostSave = 3
             notifyAdminPostCreateConfirm = 1
+            notifyUserPostCreateSave = 1
             confirmEmailPostCreate = 1
             acceptEmailPostEdit = 1
         }
