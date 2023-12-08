@@ -131,11 +131,14 @@ plugin {
                 toEmail = hostmaster@comeun1ty.net
                 toName = Comeun1ty.NET Hostmaster
             }
+            notifyUser {
+                createSave = 1
+            }
             usergroup = 1
             usergroupPostConfirm = 1
             usergroupPostSave = 3
-            notifyAdminPostCreateConfirm = 1
-            notifyUserPostCreateSave = 1
+            #notifyAdminPostCreateConfirm = 1
+            #notifyUserPostCreateSave = 1
             confirmEmailPostCreate = 1
             acceptEmailPostEdit = 1
         }
