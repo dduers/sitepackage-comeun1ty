@@ -117,6 +117,7 @@ plugin {
         }
         settings {
             sitename = Comeun1ty.NET
+            emailSitename = Comeun1ty.NET
             userEmail {
                 replyEmail = noreply@comeun1ty.net
                 replyName = Comeun1ty.NET
@@ -134,13 +135,15 @@ plugin {
             notifyUser {
                 createSave = 1
             }
-            usergroup = 1
+            #usergroup = 1
+            usergroupPostAccept = 1
             usergroupPostConfirm = 1
             usergroupPostSave = 3
             #notifyAdminPostCreateConfirm = 1
             #notifyUserPostCreateSave = 1
             confirmEmailPostCreate = 1
             acceptEmailPostEdit = 1
+            imageFolder = 1:comeun1ty/avatars/
         }
     }
     tx_felogin_login {
