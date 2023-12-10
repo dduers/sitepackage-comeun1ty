@@ -149,8 +149,8 @@ plugin {
     tx_felogin_login {
         view {
             templateRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_cms_felogin/Templates/
-            partialRootPath =
-            layoutRootPath =
+            partialRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_cms_felogin/Partials/
+            layoutRootPath = EXT:sitepackage_comeun1ty/Resources/Private/_cms_felogin/Layouts/
         }
     }
 }
